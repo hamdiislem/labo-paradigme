@@ -40,7 +40,6 @@ int   count_passed(const int g[], int n)
 void  print_report(const int g[], int n){
 
     printf("average is %f\n" , average(g, n));
-
     printf("maximum is %d\n" , maximum (g, n));
     printf("minimum is %d\n" , minimum( g , n));
     printf("number of passed grades is %d\n" , count_passed(g, n));
