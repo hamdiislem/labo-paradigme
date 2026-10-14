@@ -59,7 +59,7 @@ static void factorial(void) {
     int n;
     unsigned long long result = 1ULL;
     printf("--- Q5b: factorial ---\n");
-    printf("Enter n (0 to 20): ");
+    printf("Enter n (0 to 19): ");
     if (scanf("%d", &n) != 1 || n < 0 || n > 20) {
         printf("Error: n must be an integer between 0 and 20.\n");
         return;
